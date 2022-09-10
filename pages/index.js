@@ -13,7 +13,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" /> 
       </Head>
       <div className="flex justify-center items-center h-screen bg-light-gray">
-        <div className="flex flex-col justify-center bg-white sm:w-[90%] xl:w-[22%] h-auto items-center rounded-[20px]">
+        <div className="flex flex-col justify-center bg-white w-[90%] sm:w-[22%] h-auto items-center rounded-[20px]">
           <div className="h-3/12 w-[90%] pt-4">
             <Image
               src={qrCodeImg}
